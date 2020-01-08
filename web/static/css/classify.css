@@ -1,0 +1,176 @@
+/********面包屑**********/
+.crumbSlide{
+	padding: 10px 0;
+	font-size: 14px;
+}
+.classify-icon{
+	color: #B41E23;
+	font-size: 16px;
+	margin: 0 5px 0 20px;
+}
+.crumbSlide span{
+	color: #B41E23;
+	margin-right: 5px;
+}
+.classify-brand{
+	border: 2px solid #eee;
+	background-color: #F8F8F8;
+}
+.brand-title{
+	width: 150px;
+	float: left;
+	font-size: 16px;
+	text-align: center;
+	color: #666;
+	margin-top: 20px;
+}
+.brands{
+	width: 1039px;
+	float: left;
+	padding: 20px 0 20px 40px;
+	border-left: 1px solid #eee;
+	background-color: #FAFAFA;
+}
+.brands ul li{
+	width: 110px;
+	float: left;
+}
+.brands ul li label:hover{
+	color: #B41E23;
+}
+.brands ul li label{
+	width: 110px;
+	display: block;
+	text-align: center;
+	padding: 15px 0;
+	color: #666;
+	border: 1px solid #eee;
+	position: relative;
+	cursor: pointer;
+}
+.chk{
+	display: none;
+}
+.chk:checked~label{
+	border: 1px solid #B41E23;
+}
+.chk:checked~label .choose{
+	display: block;
+}
+.choose{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	display: none;
+	width: 20px;
+	height: 21px;
+}
+.brands-btn{
+	margin-top: 10px;
+	text-align: center;
+}
+.brands-sure,.brands-cancel{
+	display: inline-block;
+	width: 60px;
+	height: 36px;
+	background-color: #B41E23;
+	color: #fff;
+	text-align: center;
+	line-height: 36px;
+	margin-right: 20px;
+}
+.brands-cancel{
+	background-color: #eee;
+	color: #666;
+}
+.brands-cancel:hover{
+	background-color: #ccc;
+}
+/*****综合分类*******/
+.search-select{
+	margin: 10px auto;
+	height: 36px;
+	border: 1px solid #eee;
+	background-color: #F5F5F5;
+}
+.search-select ul li{
+	float: left;
+	margin: 0 20px;
+}
+.search-select ul li a{
+	height: 36px;
+	display: inline-block;
+	line-height: 36px;
+	color: #666;
+}
+.search-select ul li a:hover{
+	color: #B41E23;
+}
+.search-select input{
+	width: 40px;
+}
+.search-select .price-sure{
+	background-color: #B41E23;
+	color: #fff;
+	width: 50px;
+	text-align: center;
+	margin: 0 5px;
+}
+.search-select .price-sure:hover{
+	color: #fff;
+}
+.search-select .price-cancel{
+	width: 50px;
+	background-color: #ccc;
+	color: #666;
+	text-align: center;
+}
+/*******商品展示********/
+.goods-show li{
+	width: 230px;
+	height: 290px;
+	background-color: #fff;
+	border: 1px solid #fff;
+	float: left;
+	margin-right: 17px;
+	margin-bottom: 10px;
+}
+.goods-show li:hover{
+	border: 1px solid #eee;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+}
+.goods-show li:nth-child(5n){
+	margin-right: 0;
+}
+.goods-show .g-title{
+	width: 200px;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-left: 15px;
+	margin-bottom: 5px;
+	color: #666;
+}
+.g-img{
+	width: 230px;
+	height: 230px;
+	overflow: hidden;
+}
+.g-img img{
+	transition: transform 1s;
+}
+.g-img:hover img{
+	transform: scale(1.05);
+}
+.g-price{
+	font-size: 16px;
+	color: #f00;
+	margin-left: 15px;
+	font-weight: bolder;
+}
+.g-num{
+	margin-left: 80px;
+	color: #666;
+}

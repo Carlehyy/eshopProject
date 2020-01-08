@@ -1,0 +1,104 @@
+/******编辑收货地址******/
+.add-address{
+	width: 600px;
+	margin-left: 90px;
+}
+.add-title{
+	margin-top: 20px;
+	font-size: 14px;
+	margin-left: 90px;
+	color: #B41E23;
+}
+#area{
+	margin-bottom: 20px;
+}
+#area,.add-address label{
+	float: left;
+}
+.add-address label{
+	width: 75px;
+	text-align: right;
+	line-height: 32px;
+}
+.add-address p{
+	margin-top: 20px;
+}
+#area select{
+	width: 160px;
+	height: 32px;
+	margin-right: 5px;
+}
+.add-name,.add-tel{
+	width: 330px;
+	height: 32px;
+	padding-left: 5px;
+}
+.add-detail{
+	width: 330px;
+	height: 60px;
+	padding: 5px 0px 5px 5px;
+}
+.chk-address{
+	margin-left: 75px;
+}
+.save-btn{
+	width: 80px;
+	height: 32px;
+	margin-left: 75px;
+	margin-top: 20px;
+	background-color: #B41E23;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+}
+/**********收货地址列表************/
+.message{
+	margin-top: 40px;
+	margin-left: 90px;
+	height: 32px;
+	line-height: 32px;
+	background-color: #B41E23;
+	color: #fff;
+	border-radius: 5px;
+	width: 1000px;
+}
+.message i{
+	margin:0 5px 0 15px;
+	font-size: 14px;
+}
+.table-list{
+	margin:20px 0 20px 90px;
+}
+.table-list, .table-list th, .table-list td{
+	border: 1px solid #999;
+	border-collapse: collapse;
+}
+.table-list th{
+	background-color: #FAE8E8;
+}
+.table-list th,.table-list td{
+	padding: 10px 20px;
+	font-size: 14px;
+}
+.t-address{
+	width: 320px;
+}
+.t-tel{
+	width: 180px;
+}
+.t-name,.t-operate,.t-default{
+	text-align: center;
+}
+.default-on{
+	color: #B41E23;
+}
+.table-list td a{
+	color: #666;
+	margin:0 5px;
+}
+.table-list tr:hover{
+	background-color: #FAF5F5;
+}
+.table-list td a:hover{
+	color: #B41E23;
+}

@@ -1,0 +1,94 @@
+.trade{
+	margin-top: 30px;
+	border: 2px solid #eee;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+.trade-title{
+	border-bottom: 1px solid #eee;
+}
+.trade-title li{
+	font-size: 14px;
+}
+.trade-title li,.trade-list li{
+	float: left;
+	padding: 20px 0;
+	
+}
+.price,.num,.real-price,.real-price-title,.operate{
+	width: 190px;
+	text-align: center;
+}
+.info{
+	width: 430px;
+	text-align: center;
+	margin-left: 20px;
+}
+.trade-list-top{
+	line-height: 40px;
+	background-color: #FAE8E8;
+}
+.trade-list-l{
+	width: 500px;
+	float: left;
+	margin-left: 20px;
+}
+.trade-date{
+	font-size: 14px;
+	font-weight: bolder;
+}
+.trade-no{
+	margin-left: 20px;
+}
+.trade-list-top .trade-list-r{
+	float: right;
+	margin-right: 20px;
+	color: #999;
+	font-size: 18px;
+	margin-top: 14px;
+}
+.trade-list .info{
+	text-align: left;
+	margin-left: 20px;
+}
+.trade-list .info img{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.trade-list .info p{
+	width: 280px;
+	float: left;
+	margin-left: 10px;
+	color: #666;
+	height: 48px;
+	line-height: 24px;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.trade-list .price,.trade-list .real-price{
+	font-size: 14px;
+	font-weight: bolder;
+}
+.trade-list .real-price{
+	font-size: 14px;
+	color: #B41E23;
+	font-weight: bolder;
+}
+.trade-list .operate a{
+	color: #666;
+	font-size: 14px;
+}
+.trade-list .operate a:hover{
+	color: #B41E23;
+	text-decoration: underline;
+}
+.trade-list ul{
+	border-bottom: 1px dashed #eee;
+}
+.trade-list ul:last-child{
+	border-bottom: none;
+}

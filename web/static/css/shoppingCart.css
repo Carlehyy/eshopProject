@@ -1,0 +1,223 @@
+/**********收货地址**************/
+.address{
+	border: 2px solid #eee;
+	margin: 10px auto;
+}
+.default{
+	height: 80px;
+}
+.default-title{
+	width: 150px;
+	height: 80px;
+	background-color: #F8F8F8;
+	float: left;
+	border-right: 1px solid #eee;
+	font-size: 16px;
+	text-align: center;
+	color: #666;
+	line-height: 80px;
+}
+.default-list{
+	float: left;
+	padding-top: 15px;
+	width: 650px;
+	margin-left: 20px;
+}
+.default-list span,.default-list p {
+	font-size: 14px;
+	line-height: 25px;
+}
+.default-list .add-tel{
+	float: right;
+}
+.down{
+	width: 100px;
+	float: left;
+	margin: 25px 0 0 200px;
+}
+.down i{
+	font-size: 24px;
+	color: #aaa;
+	cursor: pointer;
+}
+.down i:hover{
+	color: #B41E23;
+}
+.address-list{
+	display: none;
+}
+.address-list li{
+	padding: 10px 5px;
+	border-top: 1px solid #eee;
+}
+.address-list li input,.address-list li div{
+	float: left;
+}
+.address-list li input{
+	margin-left: 30px;
+}
+.address-des p,.address-des span{
+	float: left;
+	margin-left: 40px;
+}
+.address-des .add-person{
+	margin-left: 10px;
+}
+/*******购物车展示**********/
+.shopping{
+	border: 2px solid #eee;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+.shopping-title{
+	border-bottom: 1px solid #eee;
+}
+.shopping-title li{
+	font-size: 14px;
+}
+.shopping-title li,.shopping-list li{
+	float: left;
+	padding: 20px 0;
+	
+}
+.chk,.price,.num,.min-price,.min-price-title,.operate{
+	width: 150px;
+	text-align: center;
+}
+.chk input,.all-chk2{
+	width: 18px;
+	height: 18px;
+}
+.info{
+	width: 450px;
+	text-align: center;
+}
+.shopping-list .info{
+	text-align: left;
+}
+.shopping-list .info img{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.shopping-list .info p{
+	width: 280px;
+	float: left;
+	margin-left: 10px;
+	color: #666;
+	height: 48px;
+	line-height: 24px;
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.shopping-list .price{
+	font-size: 14px;
+	font-weight: bolder;
+}
+.shopping-list .min-price{
+	font-size: 14px;
+	color: #B41E23;
+	font-weight: bolder;
+}
+.shopping-list .num input{
+	width: 26px;
+	height: 20px;
+	border: 1px solid #aaa;
+	padding: 2px;
+}
+.shopping-list .num{
+	position: relative;
+}
+.shopping-list .add{
+	left: 90px;
+}
+.shopping-list .minus{
+	left: 34px;
+}
+.shopping-list .add,.shopping-list .minus{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+	line-height: 24px;
+	color: #000;
+	border: 1px solid #aaa;
+	position: absolute;
+	
+}
+.shopping-list .add:hover,.shopping-list .minus:hover{
+	color: #B41E23;
+	border: 1px solid #B41E23;
+}
+.shopping-list .operate a{
+	color: #666;
+	font-size: 14px;
+}
+.shopping-list .operate a:hover{
+	color: #B41E23;
+	text-decoration: underline;
+}
+.shopping-list ul{
+	border-bottom: 1px dashed #eee;
+}
+.shopping-list ul:last-child{
+	border-bottom: none;
+}
+.shopping-footer{
+	border-top: 1px solid #eee;
+}
+.shopping-footer-l,.shopping-footer-r{
+	width: 350px;
+	padding: 20px 0;
+}
+.shopping-footer .shopping-footer-l{			
+	float: left;
+}
+.shopping-footer .shopping-footer-r{
+	float: right;
+	position: relative;
+}
+.all-chk2{
+	margin-left: 65px;
+	position: relative;
+	top: 5px;
+}
+.all-num,.choose-num{
+	color: #B41E23;
+	font-size: 14px;
+	font-weight: bolder;
+}
+.shopping-footer .line{
+	margin: 0 10px;
+	color: #aaa;
+}
+.total{
+	color: #B41E23;
+	font-size: 16px;
+	font-weight: bolder;
+}
+.all-del{
+	color: #999;
+	font-weight: bolder;
+}
+.all-del:hover{
+	color: #B41E23;
+	text-decoration: underline;
+}
+.compute{
+	margin-left: 20px;
+	display: inline-block;
+	width: 90px;
+	height: 62px;
+	background-color: #B41E23;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: center;
+	line-height: 62px;
+	font-size: 18px;
+}

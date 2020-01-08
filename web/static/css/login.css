@@ -1,0 +1,111 @@
+/******登录/注册的头部******/
+.lr-top{
+	padding: 20px 0;
+}
+.top-link{
+	width: 460px;
+	float: right;
+	padding-top: 15px;
+}
+.top-link a{
+	display: inline-block;
+	width: 150px;
+	height: 30px;
+	background-image: url(../img/login-icon.png);
+}
+.top-link1{
+	background-position: 0 -40px;
+}
+.top-link2{
+	background-position: 0 -114px;
+}
+.top-link3{
+	background-position: 0 -80px;
+}
+/******登录/注册的中部******/
+.lr-main{
+	height: 600px;
+	background-image: url(../img/login-bg.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+}
+.reg-div{
+	float: right;
+	margin-top: 100px;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0px 3px 8px rgba(0,0,0,.3);
+}
+.login-title{
+	float: left;
+	color: #B41E23;
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+.go-reg{
+	float: right;
+	margin-top: 8px;
+	color: #999;
+}
+.go-reg a{
+	color: #B41E23;
+}
+.icon-account,.icon-pwd{
+	width: 30px;
+	height: 30px;
+	display: block;
+	background-image: url(../img/login-icon.png);
+	position: absolute;
+	top: 2px;
+}
+.icon-account{
+	background-position: -35px 0;
+}
+.icon-pwd{
+	background-position: -7px 0;
+}
+.reg-div form{
+	clear: both;
+}
+.reg-div input{
+	width: 280px;
+	height: 40px;
+	border: 1px solid #aaa;
+	padding-left: 35px;
+}
+.reg-div p{
+	margin-bottom: 20px;
+	position: relative;
+}
+.reg-div .code{
+	display: block;
+	width: 180px;
+	padding-left: 10px;
+	float: left;
+	margin-right: 16px;
+}
+.reg-div .chk-login{
+	width: 14px;
+	height: 14px;
+	position: relative;
+	top: 3px;
+	margin: 0 5px;
+}
+.reg-div .code-img{
+	display: block;
+	float: left;
+}
+.reg-div .sum-btn{
+	width: 319px;
+	height: 42px;
+	color: #fff;
+	font-size: 14px;
+	background-color: #B41E23;
+	border: none;
+	font-weight: bolder;
+	padding-left: 0;
+}
+/*****脚注*****/
+.lr-footer{
+	background-color: #fff;
+}
