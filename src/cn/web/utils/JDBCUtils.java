@@ -5,8 +5,9 @@ import java.sql.*;
 public class JDBCUtils {
     private static final String url = "jdbc:mysql://localhost:3306/eshop?serverTimezone=GMT%2B8";
     private static final String username = "root";
-    private static final String password = "hn980628";
-    private static final String ClassDriver = "com.mysql.cj.jdbc.Driver";
+    private static final String password = "root";
+    // private static final String ClassDriver = "com.mysql.cj.jdbc.Driver";
+    private static final String ClassDriver = "com.mysql.jdbc.Driver";
     private static Connection conn = null;
     static {
         try {
