@@ -8,6 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class UserService implements UserServiceImpl{
+
     @Override
     public User getUserByUsername(String username) {
         User user = null;
@@ -25,5 +26,26 @@ public class UserService implements UserServiceImpl{
         } finally {
             return user;
         }
+    }
+
+    public RegisterRetnInfo addUser(User user) {
+        User u =  getUserByUsername(user.getUsername());
+        if(null != u) {
+            return RegisterRetnInfo.EXISTS;
+        }
+        try {
+            JDBCUtils.executeUpdate("INSERT INTO s_user (id, username, password, type) VALUES (?, ?, ?, ?);",
+                    user.getId(), user.getUsername(), user.getPassword(), user.getType());
+            return RegisterRetnInfo.SUCCESS;
+        }catch (SQLException e){
+            e.printStackTrace();
+            return RegisterRetnInfo.FAILED;
+        }
+    }
+
+    public enum RegisterRetnInfo{
+        SUCCESS,
+        EXISTS,
+        FAILED
     }
 }
