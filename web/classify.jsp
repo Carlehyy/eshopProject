@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<title>商品分类</title>
-		<link rel="stylesheet" href="css/reset.css" />
-		<link rel="stylesheet" href="css/top.css" />
-		<link rel="stylesheet" href="css/footer.css" />
-		<link rel="stylesheet" href="css/classify.css" />
-		<link rel="stylesheet" href="css/font-awesome-4.7.0/Font-Awesome-master/css/font-awesome.min.css" />
-		<script src="js/jquery.js"></script>
+		<link rel="stylesheet" href="static/css/reset.css" />
+		<link rel="stylesheet" href="static/css/top.css" />
+		<link rel="stylesheet" href="static/css/footer.css" />
+		<link rel="stylesheet" href="static/css/classify.css" />
+		<link rel="stylesheet" href="static/css/font-awesome-4.7.0/Font-Awesome-master/css/font-awesome.min.css" />
+		<script src="static/js/jquery.js"></script>
 		<script>
 			$(function(){
 				$("#brands-cancel").click(function(){
@@ -37,7 +37,7 @@
 			<!--logo+搜索-->
 			<div class="top-header w1230 clear-float">
 				<a href="index.html" target="_blank" class="logo">
-					<img src="img/logo.png"/>
+					<img src="static/img/logo.png"/>
 				</a>
 				<div class="top-header-right">
 					<!--搜索框-->
@@ -114,127 +114,127 @@
 					<li>
 						<input type="checkbox" class="chk" id="chk1"/>
 						<label for="chk1">
-							<img src="img/liangpin.jpg" width="50" height="50px"/><br />盐津铺子
-							<img src="img/choose.PNG" class="choose"/>
+							<img src="static/img/liangpin.jpg" width="50" height="50px"/><br />盐津铺子
+							<img src="static/img/choose.PNG" class="choose"/>
 						</label>
 					</li>
 					<li>
 						<input type="checkbox" class="chk" id="chk2"/>
 						<label for="chk2">
-							<img src="img/liangpin.jpg" width="50" height="50px"/><br />良品铺子
-							<img src="img/choose.PNG" class="choose"/>
+							<img src="static/img/liangpin.jpg" width="50" height="50px"/><br />良品铺子
+							<img src="static/img/choose.PNG" class="choose"/>
 						</label>
 					</li>
 					<li>
 						<input type="checkbox" class="chk" id="chk3"/>
 						<label for="chk3">
-							<img src="img/liangpin.jpg" width="50" height="50px"/><br />百草味
-							<img src="img/choose.PNG" class="choose"/>
+							<img src="static/img/liangpin.jpg" width="50" height="50px"/><br />百草味
+							<img src="static/img/choose.PNG" class="choose"/>
 						</label>
 					</li>
 					<li>
 						<input type="checkbox" class="chk" id="chk4"/>
 						<label for="chk4">
-							<img src="img/liangpin.jpg" width="50" height="50px"/><br />大红袍
-							<img src="img/choose.PNG" class="choose"/>
+							<img src="static/img/liangpin.jpg" width="50" height="50px"/><br />大红袍
+							<img src="static/img/choose.PNG" class="choose"/>
 						</label>
 					</li>
 					<li>
 						<input type="checkbox" class="chk" id="chk5"/>
 						<label for="chk5">
-							<img src="img/liangpin.jpg" width="50" height="50px"/><br />金龙鱼
-							<img src="img/choose.PNG" class="choose"/>
+							<img src="static/img/liangpin.jpg" width="50" height="50px"/><br />金龙鱼
+							<img src="static/img/choose.PNG" class="choose"/>
 						</label>
 					</li>
 					<li>
 						<input type="checkbox" class="chk" id="chk6"/>
 						<label for="chk6">
-							<img src="img/liangpin.jpg" width="50" height="50px"/><br />芬尼湾
-							<img src="img/choose.PNG" class="choose"/>
+							<img src="static/img/liangpin.jpg" width="50" height="50px"/><br />芬尼湾
+							<img src="static/img/choose.PNG" class="choose"/>
 						</label>
 					</li>
 					<li>
 						<input type="checkbox" class="chk" id="chk7"/>
 						<label for="chk7">
-							<img src="img/liangpin.jpg" width="50" height="50px"/><br />农夫山泉
-							<img src="img/choose.PNG" class="choose"/>
+							<img src="static/img/liangpin.jpg" width="50" height="50px"/><br />农夫山泉
+							<img src="static/img/choose.PNG" class="choose"/>
 						</label>
 					</li>
 					<li>
 						<input type="checkbox" class="chk" id="chk8"/>
 						<label for="chk8">
-							<img src="img/liangpin.jpg" width="50" height="50px"/><br />鲁花
-							<img src="img/choose.PNG" class="choose"/>
+							<img src="static/img/liangpin.jpg" width="50" height="50px"/><br />鲁花
+							<img src="static/img/choose.PNG" class="choose"/>
 						</label>
 					</li>
 					<li>
 						<input type="checkbox" class="chk" id="chk9"/>
 						<label for="chk9">
-							<img src="img/liangpin.jpg" width="50" height="50px"/><br />伊利
-							<img src="img/choose.PNG" class="choose"/>
+							<img src="static/img/liangpin.jpg" width="50" height="50px"/><br />伊利
+							<img src="static/img/choose.PNG" class="choose"/>
 						</label>
 					</li>
 					<li>
 						<input type="checkbox" class="chk" id="chk10"/>
 						<label for="chk10">
-							<img src="img/liangpin.jpg" width="50" height="50px"/><br />芦苇微微
-							<img src="img/choose.PNG" class="choose"/>
+							<img src="static/img/liangpin.jpg" width="50" height="50px"/><br />芦苇微微
+							<img src="static/img/choose.PNG" class="choose"/>
 						</label>
 					</li>
 					<li>
 						<input type="checkbox" class="chk" id="chk11"/>
 						<label for="chk11">
-							<img src="img/liangpin.jpg" width="50" height="50px"/><br />天地精华
-							<img src="img/choose.PNG" class="choose"/>
+							<img src="static/img/liangpin.jpg" width="50" height="50px"/><br />天地精华
+							<img src="static/img/choose.PNG" class="choose"/>
 						</label>
 					</li>
 					<li>
 						<input type="checkbox" class="chk" id="chk12"/>
 						<label for="chk12">
-							<img src="img/liangpin.jpg" width="50" height="50px"/><br />广州酒家
-							<img src="img/choose.PNG" class="choose"/>
+							<img src="static/img/liangpin.jpg" width="50" height="50px"/><br />广州酒家
+							<img src="static/img/choose.PNG" class="choose"/>
 						</label>
 					</li>
 					<li>
 						<input type="checkbox" class="chk" id="chk13"/>
 						<label for="chk13">
-							<img src="img/liangpin.jpg" width="50" height="50px"/><br />吾润
-							<img src="img/choose.PNG" class="choose"/>
+							<img src="static/img/liangpin.jpg" width="50" height="50px"/><br />吾润
+							<img src="static/img/choose.PNG" class="choose"/>
 						</label>
 					</li>
 					<li>
 						<input type="checkbox" class="chk" id="chk14"/>
 						<label for="chk14">
-							<img src="img/liangpin.jpg" width="50" height="50px"/><br />雲杉
-							<img src="img/choose.PNG" class="choose"/>
+							<img src="static/img/liangpin.jpg" width="50" height="50px"/><br />雲杉
+							<img src="static/img/choose.PNG" class="choose"/>
 						</label>
 					</li>
 					<li>
 						<input type="checkbox" class="chk" id="chk15"/>
 						<label for="chk15">
-							<img src="img/liangpin.jpg" width="50" height="50px"/><br />福芝林
-							<img src="img/choose.PNG" class="choose"/>
+							<img src="static/img/liangpin.jpg" width="50" height="50px"/><br />福芝林
+							<img src="static/img/choose.PNG" class="choose"/>
 						</label>
 					</li>
 					<li>
 						<input type="checkbox" class="chk" id="chk16"/>
 						<label for="chk16">
-							<img src="img/liangpin.jpg" width="50" height="50px"/><br />十景斋
-							<img src="img/choose.PNG" class="choose"/>
+							<img src="static/img/liangpin.jpg" width="50" height="50px"/><br />十景斋
+							<img src="static/img/choose.PNG" class="choose"/>
 						</label>
 					</li>
 					<li>
 						<input type="checkbox" class="chk" id="chk17"/>
 						<label for="chk17">
-							<img src="img/liangpin.jpg" width="50" height="50px"/><br />美心
-							<img src="img/choose.PNG" class="choose"/>
+							<img src="static/img/liangpin.jpg" width="50" height="50px"/><br />美心
+							<img src="static/img/choose.PNG" class="choose"/>
 						</label>
 					</li>
 					<li>
 						<input type="checkbox" class="chk" id="chk18"/>
 						<label for="chk18">
-							<img src="img/liangpin.jpg" width="50" height="50px"/><br />购食惠
-							<img src="img/choose.PNG" class="choose"/>
+							<img src="static/img/liangpin.jpg" width="50" height="50px"/><br />购食惠
+							<img src="static/img/choose.PNG" class="choose"/>
 						</label>
 					</li>
 				</ul>
@@ -266,60 +266,60 @@
 		<div class="goods-show w1230">
 			<ul class="clear-float">
 				<li><a href="#">
-					<div class="g-img"><img src="img/classify/classify-global01.jpg" alt="" width="230px" height="230px"/></div>
+					<div class="g-img"><img src="static/img/classify/classify-global01.jpg" alt="" width="230px" height="230px"/></div>
 					<p class="g-title">马来西亚进口 茱蒂丝（Julie's) 美旋律什锦饼干658.8g（新老包装随机发货）</p>
 					<span class="g-price">￥39.00</span>
 					<span class="g-num">销量:800</span>
 				</a></li>
 				<li><a href="#">
-					<div class="g-img"><img src="img/classify/classify-global02.jpg" alt="" width="230px" height="230px"/></div>
+					<div class="g-img"><img src="static/img/classify/classify-global02.jpg" alt="" width="230px" height="230px"/></div>
 					<p class="g-title">新西兰原装进口牛奶 安佳Anchor全脂牛奶UHT纯牛奶250ml*24 整箱装</p>
 					<span class="g-price">￥89.00</span>
 					<span class="g-num">销量:800</span>
 				</a></li>
 				<li><a href="#">
-					<div class="g-img"><img src="img/classify/classify-global03.jpg" alt="" width="230px" height="230px"/></div>
+					<div class="g-img"><img src="static/img/classify/classify-global03.jpg" alt="" width="230px" height="230px"/></div>
 					<p class="g-title">葡韵手信 澳门特产 休闲零食 传统糕点小吃 千层酥150g</p>
 					<span class="g-price">￥23.00</span>
 					<span class="g-num">销量:800</span>
 				</a></li>
 				<li><a href="#">
-					<div class="g-img"><img src="img/classify/classify-global04.jpg" alt="" width="230px" height="230px"/></div>
+					<div class="g-img"><img src="static/img/classify/classify-global04.jpg" alt="" width="230px" height="230px"/></div>
 					<p class="g-title">日本进口 白色恋人 北海道 白巧克力夹心饼干12枚 休闲零食 礼盒132g</p>
 					<span class="g-price">￥89.00</span>
 					<span class="g-num">销量:800</span>
 				</a></li>
 				<li><a href="#">
-					<div class="g-img"><img src="img/classify/classify-global05.jpg" alt="" width="230px" height="230px"/></div>
+					<div class="g-img"><img src="static/img/classify/classify-global05.jpg" alt="" width="230px" height="230px"/></div>
 					<p class="g-title">澳大利亚 进口奶粉 德运 （Devondale）调制乳粉（全脂）成人奶粉 1kg 袋装</p>
 					<span class="g-price">￥69.00</span>
 					<span class="g-num">销量:800</span>
 				</a></li>
 				<li><a href="#">
-					<div class="g-img"><img src="img/classify/classify-global06.jpg" alt="" width="230px" height="230px"/></div>
+					<div class="g-img"><img src="static/img/classify/classify-global06.jpg" alt="" width="230px" height="230px"/></div>
 					<p class="g-title">澳大利亚 进口牛奶 德运（Devondale） 全脂牛奶 1L*10 整箱装</p>
 					<span class="g-price">￥99.00</span>
 					<span class="g-num">销量:800</span>
 				</a></li>
 				<li><a href="#">
-					<div class="g-img"><img src="img/classify/classify-global07.jpg" alt="" width="230px" height="230px"/></div>
+					<div class="g-img"><img src="static/img/classify/classify-global07.jpg" alt="" width="230px" height="230px"/></div>
 					<p class="g-title">Ferrero Rocher费列罗榛果威化糖果巧克力礼盒48粒600g</p>
 					<span class="g-price">￥129.00</span>
 					<span class="g-num">销量:800</span>
 				</a></li>
 				<li><a href="#">
-					<div class="g-img"><img src="img/classify/classify-global08.jpg" alt="" width="230px" height="230px"/></div>
+					<div class="g-img"><img src="static/img/classify/classify-global08.jpg" alt="" width="230px" height="230px"/></div>
 					<p class="g-title">新西兰原装进口牛奶 安佳Anchor全脂牛奶UHT纯牛奶1L*12 整箱装</p>
 					<span class="g-price">￥139.00</span>
 				</a></li>
 				<li><a href="#">
-					<div class="g-img"><img src="img/classify/classify-global09.jpg" alt="" width="230px" height="230px"/></div>
+					<div class="g-img"><img src="static/img/classify/classify-global09.jpg" alt="" width="230px" height="230px"/></div>
 					<p class="g-title">沙特阿拉伯进口 麦维他（Mcvitie's）全麦酥性消化饼干纤滋棒原味180g</p>
 					<span class="g-price">￥17.90</span>
 					<span class="g-num">销量:800</span>
 				</a></li>
 				<li><a href="#">
-					<div class="g-img"><img src="img/classify/classify-global10.jpg" alt="" width="230px" height="230px"/></div>
+					<div class="g-img"><img src="static/img/classify/classify-global10.jpg" alt="" width="230px" height="230px"/></div>
 					<p class="g-title">泰国进口 家乐氏（Kellogg’s）谷维滋 即食谷物 进口冲调 营养谷物早餐310g</p>
 					<span class="g-price">￥29.90</span>
 					<span class="g-num">销量:800</span>
