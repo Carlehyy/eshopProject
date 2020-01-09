@@ -59,5 +59,4 @@
 </body>
 </html>
 <SCRIPT Language=VBScript><!--
-
 //--></SCRIPT>
